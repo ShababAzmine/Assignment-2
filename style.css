@@ -1,0 +1,170 @@
+body{color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    background-color: #111111;
+}
+h6{color: gray;}
+header{width: 1440px;
+height: 678px;
+border: 3px solid rgb(8, 8, 8);}
+.navbar{display: flex;
+justify-content: space-between;
+}
+.name{margin-top: 20px;
+margin-left: 150px;
+color: #E6533C;}
+.buttons{margin-top: 35px;
+margin-right: 150px;
+}
+.navbtn{border: none;
+background: none;
+margin-right: 30px;
+color: #FFFFFF;
+cursor: pointer;}
+.home{background-color: #E6533C;
+    margin-right: 30px;
+color: #FFFFFF;
+border: 2px solid #E6533C;
+border-radius: 20px;
+padding: 10px 15px;
+cursor: pointer;
+}
+.home:hover{background-color: orange;}
+.headtext2{margin-left: 150px;}
+.shape{font-family: 'Miama', sans-serif;
+font-size: 5rem;}
+.gray{color: gray;}
+.joinbtn{background-color: #E6533C;
+border-radius: 20px;
+padding: 10px 15px;
+cursor: pointer;
+color: #FFFFFF;
+border: 2px solid #E6533C;
+margin-right: 10px;
+}
+.joinbtn:hover{cursor: pointer;
+background-color: orange;}
+.downapp{border-radius: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 10px;
+background-color: #111111;
+color: #FFFFFF;
+border: 2px solid #FFFFFF;}
+.headtext{display: flex;
+justify-content: space-between;}
+.firstpic{margin-right: 150px;
+}
+.vidtutorial{background-color: transparent;
+border: 2px solid #FFFFFF;
+color: #FFFFFF;
+border-radius: 8px;
+padding: 10px;
+width: 100px;
+position: relative;
+bottom: 150px;
+right: 40px;
+}
+.workoutvids{background-color: transparent;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 8px;
+padding: 10px;
+width: 100px;
+position: relative;
+bottom: 500px;
+left: 250px;
+}
+.habits{text-align: center;
+margin-top:100px;}
+.workpics{display: flex;
+    justify-content: space-between ;
+text-align: center;
+margin: 150px;
+margin-top: 70px;
+}
+.movement{ width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;}
+.time{ width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;}
+.practice{ width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;}
+.weightloss{ width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;}
+.run{background-color: #222222;
+    border-radius: 10px;
+    padding: 40px;
+margin: 180px;
+margin-top: -70px;
+width: auto;
+height: auto;
+display: flex;
+justify-content: space-between;}
+.runtext{margin: 20px;
+}
+.runimg{height: 200px;
+width: 250px;
+}
+.runimg:hover{transform: scale(2);
+transition: 2s;
+}
+.bmichartcalc{background-color: #222222;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.bmi-table{width: 300px;
+    height: 250px;
+border-collapse: collapse;
+text-align: left;
+border: 2px solid #3C3C3C}
+th, tr, td{border: 2px solid #3C3C3C;}
+tr, td{color: gray;}
+.bmi-table th{font-weight: bold; color: #FFFFFF;}
+.calculator{display: flex;
+flex-direction: column;}
+.input{width: 500px;
+    height: 200px;
+    gap: 10px;
+    display: grid;
+grid-template-columns: repeat(2, 1fr);}
+.calcbtn{background-color: #E6533C;
+    border-radius: 50px;
+    padding: 5px;
+    cursor: pointer;
+    color: #FFFFFF;
+    border: 2px solid #E6533C;
+    margin-right: 10px;
+font-size: medium;}
+    .activity{width: 205%}
+    .inpbtn{color: gray;
+        border: 2px solid #3C3C3C;
+        border-radius: 10px;
+    background-color: #3C3C3C;}
+    .teampics{background-color: #3C3C3C;}
+.teampics{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: auto;
+gap: 10px;
+padding: 30px;
+margin: 100px;
+margin-top: 10px;
+border: 2px solid #3C3C3C;
+border-radius: 20px;
+}
+.teampics img {
+width: 100%;
+height: 100%;
+transform: scale(1);
+}
+.teamimgs{text-align: center;
+margin-bottom: 50px;}
+       
