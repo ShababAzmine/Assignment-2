@@ -101,7 +101,7 @@ margin-top: 70px;
     height: 200px;
     border-radius: 50%;
     overflow: hidden;}
-.run{background-color: #222222;
+    .run{background-color: #222222;
     border-radius: 10px;
     padding: 40px;
 margin: 180px;
@@ -117,6 +117,23 @@ width: 250px;
 }
 .runimg:hover{transform: scale(2);
 transition: 2s;
+}
+.run{background-color: #222222;
+    border-radius: 10px;
+    padding: 40px;
+margin: 180px;
+margin-top: -70px;
+width: auto;
+height: auto;
+display: flex;
+justify-content: space-between;}
+.runtext{margin: 20px;
+}
+.runimg{height: 200px;
+width: 250px;
+}
+.runimg:hover{transform: scale(2);
+transition: 3s;
 }
 .bmichartcalc{background-color: #222222;
     padding: 30px;
@@ -229,3 +246,79 @@ color: gray;}
     font-size: 14px;
     color: gray;
 }
+@media (max-width: 576px) {
+    body {
+        width: 100%;
+        font-size: 1rem; 
+    }
+    header {
+        width: 100%;
+        height: auto;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .name, .buttons {
+        margin: 10px 0;
+    }
+    .buttons {
+        margin-right: 0;
+    }
+    .headtext {
+        flex-direction: column;
+        align-items: center;
+    }
+    .headtext2 {
+        margin-left: 0;
+        text-align: center;
+    }
+    .headpic{width: 50%;
+        margin-right: 100px;       
+    }
+    .workpics{
+        flex-direction: column;
+        margin: 0;
+    }
+    .movement, .time, .practice, .weightloss {
+        width: 150px;
+        height: 150px;
+    }
+    .run{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        margin-top: 20px;
+        margin-left: 0;
+        text-align: center;
+    }    
+    .bmichartcalc{flex-direction: column;
+        text-align: center;
+    }
+    .bmi-table{margin-left: 60px;}
+    .calculator{margin-top: 20px;
+    }
+    .inpbtn{width: 150px;       
+    }
+    .teampics{display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        width: 90%;
+    }
+    .nutritionimg{display: flex;
+        flex-direction: column;
+        width: 95%;
+    }
+    .secondaryimg{display: flex;
+    flex-direction: column;
+    }
+    .meat{width: 456px;}
+    .veggies{width: 456px;}
+    .footer{display: flex;
+    flex-direction: column;
+text-align: center;}
+}
+
+
+
