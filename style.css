@@ -1,11 +1,14 @@
 body{color: #FFFFFF;
     font-family: 'Inter', sans-serif;
     background-color: #111111;
+    width: 1440px;
+    font-size: 1.2rem;
 }
 h6{color: gray;}
 header{width: 1440px;
-height: 678px;
-border: 3px solid rgb(8, 8, 8);}
+height: 692px;
+border: 3px solid rgb(8, 8, 8);
+}
 .navbar{display: flex;
 justify-content: space-between;
 }
@@ -143,28 +146,86 @@ grid-template-columns: repeat(2, 1fr);}
     border: 2px solid #E6533C;
     margin-right: 10px;
 font-size: medium;}
+.calcbtn:hover{background-color: orange;}
     .activity{width: 205%}
     .inpbtn{color: gray;
         border: 2px solid #3C3C3C;
         border-radius: 10px;
     background-color: #3C3C3C;}
-    .teampics{background-color: #3C3C3C;}
 .teampics{
+background-color: #222222;
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 grid-template-rows: auto;
-gap: 10px;
-padding: 30px;
+padding: 10px;
 margin: 100px;
-margin-top: 10px;
-border: 2px solid #3C3C3C;
+margin-left: 60px;
+border: 2px solid #222222;
 border-radius: 20px;
+width: 1300px;
+height: auto;
 }
 .teampics img {
 width: 100%;
 height: 100%;
-transform: scale(1);
 }
 .teamimgs{text-align: center;
-margin-bottom: 50px;}
-       
+margin: 15px;
+width: 400px;
+height: 400px;
+overflow: hidden;
+border: 2px solid black;
+border-radius: 20px;}
+.nutritiontext{text-align: center;}
+.nutritionimg{justify-content: center;
+display:flex;
+}
+.biryani{border: 2px solid black;}
+.meat{height: 200px;
+width: 300px;
+border: 2px solid black;}
+.veggies{height: 200px;
+    width: 300px;
+    border: 2px solid black;}
+    .secondaryimg{display: flex;
+        flex-direction: column;}
+.footer{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin: 50px 100px;
+margin-bottom: 0px;}
+.footertext{}
+.getstarted1{display: flex;
+flex-direction: column;
+}
+.getstarted1child{display: flex;
+flex-direction: column;
+margin-top: 5px;
+gap: 20px;
+}
+.getstarted2child{
+    display: flex;
+flex-direction: column;
+gap: 20px;
+}
+a{text-decoration: none;
+color: gray;}
+.footer-bottom {
+    margin-top: 20px;
+}
+
+.footer-bottom hr {
+    border: 0;
+    height: 1px;
+    background-color: gray;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.footer-bottom p {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+}
